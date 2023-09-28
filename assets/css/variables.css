@@ -24,6 +24,8 @@
   --font-default: 'EB Garamond', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: 'EB Garamond', serif; /*'Playfair Display', serif;*/
   --font-secondary: 'Inter', sans-serif;
+  --font-third: 'Poppins', sans-serif;
+
 
   /* Colors */
   /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
@@ -51,6 +53,7 @@
   --color-secondary-dark: #404f5c;
 
   --color-secondary-rgb: 89, 109, 128;
+  --color-secondary-rgb-border: 72, 86, 100;
   --color-secondary-light-rgb: 132, 152, 170;
   --color-secondary-dark-rgb: 64, 79, 92;
 

@@ -1568,3 +1568,90 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+/*--------------------------------------------------------------
+# Mission & Vision Section
+--------------------------------------------------------------*/
+.mission-vision .mission-vision-img {
+  position: relative;
+  margin: 60px 0 0 60px;
+}
+
+.mission-vision .mission-vision-img:before {
+  position: absolute;
+  inset: -60px 0 0 -60px;
+  z-index: -1;
+  content: "";
+  background: url("../img/about-bg.png") top left;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 575px) {
+  .mission-vision .mission-vision-img {
+    margin: 30px 0 0 30px;
+  }
+
+  .mission-vision .mission-vision-img:before {
+    inset: -30px 0 0 -30px;
+  }
+}
+
+.mission-vision h3 {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .mission-vision h3 {
+    font-size: 28px;
+  }
+}
+
+.mission-vision .nav-pills {
+  border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
+}
+
+.mission-vision .nav-pills li+li {
+  margin-left: 40px;
+}
+
+.mission-vision .nav-link {
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-secondary);
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+  font-family: var(--font-third);
+}
+
+.mission-vision .nav-link.active {
+  color: #5f9dcf;
+  background: none;
+  border-bottom: 3px solid #5f9dcf;
+}
+
+@media (max-width: 575px) {
+  .mission-vision .nav-link {
+    font-size: 16px;
+  }
+}
+
+.mission-vision .tab-content h4 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.mission-vision .tab-content i {
+  font-size: 22px;
+  line-height: 0;
+  margin-right: 8px;
+  color: var(--color-primary);
+}
