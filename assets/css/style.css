@@ -533,6 +533,22 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
+  background: #1574c2;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.news-stories {
+  margin-top: 73px;
+  text-align: center;
+  background: #ee564b;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.press-releases {
+  margin-top: 73px;
+  text-align: center;
   background: #5f9dcf;
   padding: 30px 0;
   color: #fff;
@@ -1654,4 +1670,13 @@ section {
   line-height: 0;
   margin-right: 8px;
   color: var(--color-primary);
+}
+
+.board-director-emeritus {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.team {
+  margin-bottom: 0;
 }
